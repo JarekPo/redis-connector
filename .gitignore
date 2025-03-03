@@ -1,0 +1,56 @@
+# Python-specific files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Logs and databases
+*.log
+*.log.*
+*.sqlite
+logs/
+*.sqlite-journal
+
+# Local development
+.env
+.env.local
+tmp/
+temp/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
